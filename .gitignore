@@ -1,0 +1,29 @@
+# Real data and the files that name it: never in this repository
+*.yaml
+!.github/**/*.yaml
+*-report.md
+raw/
+sample/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets*
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+~$*
